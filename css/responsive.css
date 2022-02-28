@@ -1,0 +1,124 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+   for all devise
+  */
+  
+  @media  (max-width: 767px) {
+      .container{
+          width: 90%;
+      }
+    .nevber{
+        display: none;
+    }
+  .fast, .middel, .last{
+      display: block;
+      width: 100%;
+      margin-top: 16px;
+  }
+  .ht{
+      padding: 32px 0px;
+  }
+  .b-item h1{
+    font-size: 80px;
+  }
+  .ht {
+    width: 100%;
+    background-color: #82ae46;
+    padding: 20px 0px;
+}
+
+.feature-row {
+    grid-template-columns: auto !important;
+}
+.f-item{
+margin-bottom: 20px;
+}
+.fc-gallery{
+    flex-direction: column;
+}
+.fc-contant{
+    margin: auto;
+}
+.second{
+    background-position:inherit !important;
+}
+.fc-item{
+    margin: 32px;
+}
+.pt-gallery{
+    grid-template-columns: auto !important;
+}
+.social-img{
+    grid-template-columns: auto !important;
+    text-align: center;
+}
+.sub{
+    flex-direction: column;
+    text-align: center;
+}
+.sub-left{
+    margin-bottom: 32px;
+}
+.footer-row{
+    flex-direction: column;
+    text-align: center;
+}
+.d-flex{
+    flex-direction: column;
+}
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  /* @media (min-width: 320px) and (max-width: 480px) { */
+    
+   
+    
+  }
